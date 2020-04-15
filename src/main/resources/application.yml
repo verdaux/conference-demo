@@ -1,0 +1,12 @@
+server:
+  port: 5000
+  
+logging:
+  level:
+    root: ERROR
+    org.springframework.web: WARN
+    com.sampleproject.conferencedemo: DEBUG
+    org.hibernate: ERROR
+    
+app:
+  version: 1.0
